@@ -145,14 +145,14 @@ body{
 }
 
 .signup{
-    display: flex;
     background-color: #3882f6;
+    display: flex;
     justify-content: space-between;
-    
-    margin: 70px;
+    width: 700px;
     padding: 20px 250px;
+    margin: 50px;
     border-radius: .5rem;
-    row-gap: 10px;
+    align-items: center;
 
 }
 
@@ -181,11 +181,12 @@ body{
     border-radius: .5rem;
     width: 130px;
     height: 40px;
+    
 }
 
 .footer{
     display: flex;
-    position: sticky;
+    position: absolute;
     background-color: #1f2937;
     color: #e5e7eb;
     width: 100%;
